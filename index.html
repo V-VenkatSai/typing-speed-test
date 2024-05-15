@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Typing Speed Test</title>
+  </head>
+  <body>
+    <h1>Typing Speed Test</h1>
+    <div class="wrapper">
+      <div class="container">
+        <div class="text">
+          <input type="text" id="input-field" autocomplete="off" />
+          <div class="typing-text">
+            <p id="text"></p>
+          </div>
+        </div>
+        <hr />
+        <div class="details">
+          <ul>
+            <li class="time" title="Time Left">Time Left: <span>60</span>s</li>
+            <li class="mistakes" title="mistakes">Mistakes: <span>0</span></li>
+            <li class="wpm" title="words per minute">WPM: <span>0</span></li>
+            <li class="cpm" title="characters per minute">
+              CPM: <span>0</span>
+            </li>
+          </ul>
+          <div class="button-container">
+            <button class="try-again-button">Try Again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
